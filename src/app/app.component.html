@@ -1,9 +1,9 @@
 <div class="jumbotron">
   <div class="container">
     <h1 class="display-3">UK Parliament Software Engineering</h1>
-    <p>Thanks for taking our code test. This is a template solution to get you started.</p>
-    <P>It has angular setup and ng-boostrap available.</P>
-    <P>Instructions are below.</P>
+    <p>Thanks for taking our code test. This is a template solution to get you started</p>
+    <P>It has angular setup and ng-boostrap available</P>
+    <P>Instructions are below</P>
 
   </div>
 </div>
@@ -12,30 +12,35 @@
   <div class="row">
     <div class="col-md-12">
       <h2>Instructions</h2>
-      <p>We would like you to make a small application which calls three of our APIs found on <a
-          href="https://developer.parliament.uk/">developer.parliament.uk.</a> </p>
+      <p>We would like you to make a small application which calls three of our APIs found on <a target="_blank"
+          href="https://developer.parliament.uk/">developer.parliament.uk</a> </p>
       <P>The three APIs we are going to be asking you to call are:</P>
       <ul>
-        <li><a href="https://members-api.parliament.uk/index.html">Members API</a>- this API supplies Member data (both
-          Commons and Lords).</li>
-        <li><a href="https://members-api.parliament.uk/index.html">Commons votes</a>- this API supplies vote data for
-          Commons.</li>
-        <li><a href="https://members-api.parliament.uk/index.html">Lords votes</a> - this API supplies vote data for
-          Lords.</li>
+        <li><a target="_blank" href="https://members-api.parliament.uk/index.html">Members API</a>- this API supplies
+          Member data (both
+          Commons and Lords)</li>
+        <li><a target="_blank" href="https://members-api.parliament.uk/index.html">Commons votes</a>- this API supplies
+          vote data for
+          Commons</li>
+        <li><a target="_blank" href="https://members-api.parliament.uk/index.html">Lords votes</a> - this API supplies
+          vote data for
+          Lords</li>
       </ul>
       <p>The task is:</p>
       <ul>
-        <li>Use the Members API to show a paged list of Members.</li>
-        <li>Add a filter at the top of the list which enables a user to filter Members based on their name and/or House.
+        <li>Replace these instructions with a series of components that do the below:</li>
+        <li>Call the Members API and show a paged list of Members</li>
+        <li>
+          Add a filter at the top of the list which enables a user to filter Members based on their name and/or House
         </li>
-        <li>Present details about Members on cards.</li>
+        <li>Show details about Members on cards</li>
         <li>You can use similar styling to <a target="_blank" href="https://members.parliament.uk/members/Commons">our
-            styling</a> - but please do not just copy it. We want to see how you might present this data.</li>
-        <li>If a user clicks on a Member card then use the Divisions APIs to show the last 3 votes the Member
-          participated in, and show some relevant details</li>
+            styling</a> - but please do not just copy it. We want to see how you might present this data</li>
+        <li>If a user clicks on a Member card then use the Votes APIs to show the last 3 votes the Member
+          participated in, and show some relevant details
+        </li>
       </ul>
-      <hr>
-      <h2>Hints</h2>
+      <hr>      
       <h3>Members API</h3>
       <ul>
         <li>You can search Members using our search endpoint - /api/Members/Search
@@ -50,12 +55,14 @@
       <h3>Votes APIs</h3>
       <ul>
         <li>The contracts for Commons and Lords votes are the same, but they have separate endpoints</li>
-        <li>If a Member has House 1 then you need to use the <a href="https://commonsvotes-api.parliament.uk/">Commons
+        <li>If a Member has House 1 then you need to use the <a target="_blank"
+            href="https://commonsvotes-api.parliament.uk/">Commons
             API</a>
         </li>
-        <li>If a Member has House 2 then you need to use the <a
+        <li>If a Member has House 2 then you need to use the <a target="_blank"
             href="https://lordsvotes-api.parliament.uk/index.html">Lords API</a>
         </li>
+        <li>Please investigate the votes contracts to determine the best endpoint to call</li>              
       </ul>
     </div>
   </div>
