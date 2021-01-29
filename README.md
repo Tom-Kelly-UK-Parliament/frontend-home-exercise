@@ -1,7 +1,7 @@
 # UK Parliament - Software Engineering
 
 ## Introduction
-Thank for you taking our code test. We have written a template solution for you to prevent you from having to do too much setup. Please do following:
+Thank for you taking our code test. We have written a template solution for you to prevent you from having to do too much setup. Please do the following:
 
 * Restore packages `npm ci`
 * Run the application with `ng serve` 
